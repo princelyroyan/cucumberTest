@@ -20,6 +20,6 @@ Scenario Outline: User Page default login
 
 Examples:
     | Username | Password |
-    | customer 1 | 1234 |
+    | customer 1 | 1235 |
     | customer 2 | 4321 |
     | customer 3 | 9090 |
