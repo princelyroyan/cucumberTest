@@ -4,6 +4,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
+
 import java.util.List;
 
 public class mainsteps {
@@ -43,6 +45,7 @@ public class mainsteps {
     public void user_is_on_practice_landing_page() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("User is on Practice landing page");
+        Assert.assertTrue(true);
         //throw new io.cucumber.java.PendingException();
     }
     @When("User signup into application")
